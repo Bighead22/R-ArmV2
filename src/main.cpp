@@ -9,7 +9,7 @@ const int stepsPerRevolution = 2048;
 // Note: Library uses (Steps, IN1, IN3, IN2, IN4) for correct sequence
 Stepper myStepper(stepsPerRevolution, 5, 3, 4, 2);
 
-// Servo setup
+// Servo setu
 Servo myServo;
 Servo myServo2;
 int servoPos = 50;    // Starting angle
